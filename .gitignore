@@ -1,0 +1,13 @@
+# ignore all files
+*
+
+# exceptions to the wildcard
+!.gitignore
+!LICENSE
+!readme.md
+!commit.sh
+!initgit.sh
+!initmod.sh
+!newgo.sh
+!ruby/
+!ruby/down.rb
