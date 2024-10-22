@@ -19,7 +19,7 @@ initGitRepo() {
 
     if ! [ -f "./.gitignore" ]; then
         echo "commit.sh" > "./.gitignore"
-        { echo "build/"; echo "test/build/"; echo "compile/"; echo "dist/"; echo ".DS_Store"; echo "**/.DS_Store"; echo ".vscode"; echo "__pycache__"; } >> "./.gitignore"
+        { echo "build/"; echo "test/build/"; echo "compile/"; echo "dist/"; echo ".DS_Store"; echo ".vscode"; echo "__pycache__"; } >> "./.gitignore"
     fi
 }
 
